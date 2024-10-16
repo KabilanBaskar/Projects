@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock - Paper - Scissor</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    
+    <h2>Welcome to Rock Paper Scissor Game</h2>
+    <div class="rule">
+        <p> Instructions :</p>
+        <ul>
+            <li>Select any one of rock , paper , Scissor when the countdown ends.</li>
+            <li>There are five rounds in a match.</li>
+            <li>Each win counts a point.</li>
+            <li>Secure maximum point to win a match.</li>
+        </ul>
+    </div>
+    
+    <button class="rock" onclick="r_click('rock')"> ROCK </button>
+    <button class="paper" onclick="r_click('paper')"> PAPER </button>
+    <button class="scissor" onclick="r_click('scissor')">SCISSOR</button>
+    
+
+    <script>
+
+        function r_click(your_choice){
+            console.log(your_choice);
+            let coputer_choice='scissor';
+            console.log(coputer_choice);
+            if(your_choice === coputer_choice){
+                alert("Computer choose "+coputer_choice+" It's a Tie.");
+            }
+            else if(your_choice === 'rock'){
+                if(coputer_choice === 'scissor'){
+                    alert("computer choose "+coputer_choice+" you win.");
+                }
+                else{
+                    alert("computer choose "+coputer_choice+" It's a lose. Computer wins.");
+                }
+            }
+            else if(your_choice === 'paper'){
+                if(coputer_choice === 'rock'){
+                    alert("computer choose "+coputer_choice+" you win.");
+                }
+                else{
+                    alert("computer choose "+coputer_choice+" It's a lose. Computer wins.");
+                }
+            }
+            else if(your_choice === 'scissor'){
+                if(coputer_choice === 'rock'){
+                    alert("computer choose "+coputer_choice+" you win.");
+                }
+                else{
+                    alert("computer choose "+coputer_choice+" It's a lose. Computer wins.");
+                }
+            }
+            
+        }
+
+        function choose(){
+            let Computer_choose='';
+            let number=random_number();
+            if(number<3){
+                Computer_choose='rock';
+            }
+            else if(number>=3 && number<=6){
+                Computer_choose='paper';
+            }
+            else{
+                Computer_choose='scissor';
+            }
+            return Computer_choose;
+        }
+
+        function random_number(){
+            var a=Math.random()*10;
+            var b=Math.floor(a);
+            return b;
+        }
+    </script>
+</body>
+</html>
