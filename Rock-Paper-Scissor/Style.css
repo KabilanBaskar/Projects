@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    /* height: 625px;
+    border-left: 1px solid #ccc;
+    margin-right: 650px; */
+    margin-left: 25px;
+}
+h2{
+    color: #ccc;
+    padding-left: 530px;
+    margin-top: 60px;
+}
+.rule{
+    color: #ccc;
+    margin-top: 60px;
+    width:50%
+}
+.table{
+    position: relative;
+    margin-top: -150px;
+    float:right;
+    margin-right: 100px;
+    border-left: 2px solid #ccc;
+    padding-left: 100px;
+    height: 500px;
+}
+table,tr,th,td{
+    color: #ccc;
+    border: 2px solid #ccc;
+    border-collapse: collapse;
+    height: 45px;
+    width:350px
+}
+
+.rock:hover, .paper:hover ,.scissor:hover{
+    background-color: #ccc;
+    color: black;
+    display: block;
+    border:3px solid ;
+}
+tr:nth-child(even){
+    background-color: #cccccc69;
+}
+button{
+    display: block;
+    border-radius: 25%;
+    height: 250px;
+    width: 250px;
+    margin-top: 5%;
+    margin-left: 300PX;
+    color: #ccc;
+    background-color: black;
+    border: 2px solid white;
+}
+.paper{
+    margin-left: 600px;
+    margin-top: -16.6%;
+}
+.scissor{
+    margin-left: 900px;
+    margin-top: -16.6%;
+}
