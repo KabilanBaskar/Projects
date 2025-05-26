@@ -1,0 +1,528 @@
+.login-container {
+    max-width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .login-form input {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .login-form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .register-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .register-form input[type="text"],
+  .register-form input[type="email"],
+  .register-form input[type="password"],
+  .register-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .checkbox-group {
+    margin-top: 15px;
+  }
+  
+  .checkbox-label {
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .register-button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #0056b3;
+  }
+  .container {
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .card {
+    padding: 15px 25px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+    text-align: center;
+    min-width: 150px;
+  }
+  
+  .card:hover {
+    background-color: #ececec;
+  }
+  
+  .card.selected {
+    border-color: #007bff;
+    background-color: #d0e7ff;
+  }
+  
+  .summary {
+    margin-top: 30px;
+  }
+  .container {
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .card {
+    padding: 15px 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    transition: background 0.3s, border-color 0.3s;
+    font-size: 16px;
+    user-select: none;
+  }
+  
+  .card:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .card.selected {
+    background-color: #d0ebff;
+    border-color: #007bff;
+    font-weight: bold;
+  }
+  
+  .summary {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .summary ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .container {
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    padding: 15px 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    transition: background 0.3s, border-color 0.3s;
+    font-size: 16px;
+    user-select: none;
+  }
+  
+  .card:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .card.selected {
+    background-color: #d0ebff;
+    border-color: #007bff;
+    font-weight: bold;
+  }
+  
+  .summary, .recommendations {
+    margin-top: 30px;
+  }
+  
+  .summary ul, .recommendations ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recommend-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .recommend-button:hover {
+    background-color: #0056b3;
+  }
+  .save-button {
+    margin-top: 20px;
+    padding: 10px 24px;
+    font-size: 16px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .save-button:hover {
+    background-color: #218838;
+  }
+  .table-container {
+    padding: 20px;
+  }
+  
+  .dishes-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .dishes-table th, .dishes-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .dishes-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .dishes-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+/* Weekly Menu Table Styles */
+.weekly-menu {
+  margin-top: 20px;
+}
+
+.weekly-menu-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.weekly-menu-table th, .weekly-menu-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.weekly-menu-table th {
+  background-color: #f2f2f2;
+}
+
+.weekly-menu-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.weekly-menu-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.save-button {
+  margin-top: 20px;
+  padding: 10px 24px;
+  font-size: 16px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.save-button:hover {
+  background-color: #218838;
+}
+.container {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card.selected {
+  background-color: lightgreen;
+}
+
+.summary {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.recommendations {
+  margin-top: 20px;
+}
+
+.recommend-button {
+  margin-top: 20px;
+  background-color: #008CBA;
+}
+
+.save-button {
+  margin-top: 20px;
+  background-color: #f44336;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 10px;
+  margin: 10px;
+  background-color: #f4f4f4;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 150px;
+  text-align: center;
+}
+
+.card.selected {
+  background-color: #87cefa;
+}
+
+.weekly-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.weekly-table th, .weekly-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.weekly-table th {
+  background-color: #f2f2f2;
+}
+
+.summary {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+/* Basic container styling */
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+/* Header styling */
+h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #34495e;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Selected dishes list styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+ul li {
+  background-color: #ecf0f1;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+  font-size: 1.1rem;
+}
+
+table th {
+  background-color: #2980b9;
+  color: white;
+  font-weight: bold;
+}
+
+table td {
+  background-color: #f9f9f9;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Responsive table styling */
+@media (max-width: 768px) {
+  table th, table td {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+}
+/* Track Button Styling */
+.track-button {
+  background-color: #2980b9;
+  color: white;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: background-color 0.3s ease;
+}
+
+.track-button:hover {
+  background-color: #1c6a8f;
+}
+.track-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+
+.track-table th, .track-table td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.track-table button {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.9rem;
+}
