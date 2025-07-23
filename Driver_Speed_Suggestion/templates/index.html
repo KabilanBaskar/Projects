@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Forecast - Multi Model Comparison</title>
+</head>
+<body>
+    <h1>Weather Forecast - ARIMA, SARIMA, RF, GB, XGB, Prophet, LSTM</h1>
+    {% for parameter in parameters %}
+        <h2>{{ parameter.capitalize() }}</h2>
+        <img src="{{ url_for('static', filename=parameter + '_mae_comparison.png') }}" width="600"><br><br>
+        <img src="{{ url_for('static', filename=parameter + '_arima.png') }}" width="400">
+        <img src="{{ url_for('static', filename=parameter + '_sarima.png') }}" width="400">
+        <img src="{{ url_for('static', filename=parameter + '_rf.png') }}" width="400">
+        <img src="{{ url_for('static', filename=parameter + '_gb.png') }}" width="400">
+        <img src="{{ url_for('static', filename=parameter + '_xgb.png') }}" width="400">
+        <img src="{{ url_for('static', filename=parameter + '_prophet.png') }}" width="400">
+        <img src="{{ url_for('static', filename=parameter + '_lstm.png') }}" width="400">
+        <hr>
+    {% endfor %}
+</body>
+</html>
